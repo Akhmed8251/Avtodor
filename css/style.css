@@ -471,13 +471,11 @@ body.backdrop::after {
 }
 
 .hero__slider-container .swiper-button-prev {
-    /* left: -40px; */
     left: 0;
 }
 
 .hero__slider-container .swiper-button-next {
     background-image: url('/images/arrow-next.svg');
-    /* right: -40px; */
     right: 0;
 }
 
@@ -891,7 +889,7 @@ body.backdrop::after {
 
 .header-menu__body {
     position: fixed;
-    max-width: 633px; /* 633/1920 */
+    max-width: 633px;
     height: 100%;
     top: 0;
     left: 0;
