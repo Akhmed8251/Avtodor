@@ -39,27 +39,38 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
-  new Swiper(".news__slider", {
-    spaceBetween: 30,
-    breakpoints: {
-      320: {
-        slidesPerView: 1.25,
-      },
-      526: {
-        slidesPerView: 2,
-      },
-      993: {
-        slidesPerView: 3,
-      },
-    },
-  });
+  // new Swiper(".news__slider", {
+  //   spaceBetween: 30,
+  //   breakpoints: {
+  //     320: {
+  //       slidesPerView: 1.25,
+  //     },
+  //     526: {
+  //       slidesPerView: 2,
+  //     },
+  //     993: {
+  //       slidesPerView: 3,
+  //     },
+  //   },
+  // });
 
   new Swiper(".partners__slider", {
-    slidesPerView: 4,
-    spaceBetween: 35,
+    
+    spaceBetween: 25,
     pagination: {
       el: ".partners .swiper-pagination",
     },
+    breakpoints: {
+      426: {
+        slidesPerView: 2
+      },
+      769: {
+        slidesPerView: 3
+      },
+      1025: {
+        slidesPerView: 4
+      }
+    }
   });
 
   ymaps.ready(function () {
