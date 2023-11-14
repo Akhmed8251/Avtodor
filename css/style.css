@@ -899,14 +899,6 @@ body.backdrop::after {
     text-decoration: underline 0.15em currentColor;
 }
 
-/* .header-main__link:hover {
-    text-decoration: rgba(49, 49, 49, 1);
-}
-
-.footer-item__link:hover {
-    text-decoration-color: rgba(138, 131, 158, 1);
-} */
-
 .header-menu__top {
     display: flex;
     align-items: center;
