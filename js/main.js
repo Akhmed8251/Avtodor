@@ -1,4 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
+  var path = window.location.pathname; 
+  var host = window.location.hostname;
+
+  const headerVisionBtn = document.querySelector(".header-top__vision-btn")
+  headerVisionBtn.href = "https://finevision.ru/?hostname=" + host + "&path=" + path
+  
+  const footerVisionBtn = document.querySelector(".footer__vision-btn")
+  footerVisionBtn.href = "https://finevision.ru/?hostname=" + host + "&path=" + path
+
   const headerMenu = document.querySelector(".header-menu")
   const menuBtn = document.querySelector(".header-bottom__menu-btn")
   menuBtn.addEventListener("click", function() {

@@ -193,7 +193,7 @@ body.backdrop::after {
 
 .header-main,
 .footer-top {
-    margin-bottom: 43px;
+    margin-bottom: 57px;
 }
 
 .header-main__container,
@@ -262,21 +262,6 @@ body.backdrop::after {
     color: #313131;
     text-transform: uppercase;
 }
-
-/* .header-main__link::after,
-.footer-top__link::after {
-    content: '';
-    background-color: currentColor;
-    width: 0%;
-    height: 2px;
-    display: block;
-    transition: width .3s;
-}
-
-.header-main__link:hover::after,
-.footer-top__link:hover::after {
-    width: 100%;
-} */
 
 .header-bottom__menu-btn {
     width: 68px;
@@ -585,7 +570,7 @@ body.backdrop::after {
 }
 
 .news {
-    margin-bottom: 153px;
+    margin-bottom: 82px;
 }
 
 .news__title {
@@ -1104,6 +1089,11 @@ body.backdrop::after {
         font-size: 14px;
     }
 
+    .header-main, 
+    .footer-top {
+        margin-bottom: 46px;
+    }
+
     .header-main__link, .footer-top__link {
         font-size: 18px;
     }
@@ -1156,6 +1146,10 @@ body.backdrop::after {
         height: 493px;
     }
 
+    .admission {
+        margin-bottom: 46px;
+    }
+
     .admission__content {
         padding-top: 0;
     }
@@ -1199,6 +1193,10 @@ body.backdrop::after {
         font-size: 16px;
     }
 
+    .news {
+        margin-bottom: 56px;
+    }
+
     .news-slide__image {
         height: 248px;
     }
@@ -1209,6 +1207,10 @@ body.backdrop::after {
 
     .news-slide__date {
         font-size: 14px;
+    }
+
+    .about {
+        margin-bottom: 58px;
     }
 
     .about__wrapper {
@@ -1242,6 +1244,10 @@ body.backdrop::after {
     .contacts-item__element-link, 
     .contacts-item__element-text {
         font-size: 14px;
+    }
+
+    .map {
+        margin-bottom: 60px;
     }
 
     #map {
@@ -1389,6 +1395,10 @@ body.backdrop::after {
         padding: 0;
     }
 
+    .hero {
+        margin-bottom: 0;
+    }
+
     .hero__container {
         padding: 0;
     }
@@ -1399,6 +1409,15 @@ body.backdrop::after {
 
     .hero-slide__title {
         font-size: 36px;
+    }
+
+    .header-main, 
+    .footer-top {
+        margin-bottom: 35px;
+    }
+
+    .admission {
+        margin-bottom: 35px;
     }
 
     .gosuslugi-block {
@@ -1423,6 +1442,10 @@ body.backdrop::after {
         font-size: 14px;
     }
 
+    .news {
+        margin-bottom: 30px;
+    }
+
     .news-slide__image {
         height: 221px;
     }
@@ -1436,6 +1459,10 @@ body.backdrop::after {
     .news-slide__date {
         order: 1;
         margin-bottom: 9px;
+    }
+
+    .about {
+        margin-bottom: 30px;
     }
 
     .about__image {
@@ -1502,6 +1529,10 @@ body.backdrop::after {
     .contacts-item__element-link, 
     .contacts-item__element-text {
         font-size: 12px;
+    }
+
+    .map {
+        margin-bottom: 28px;
     }
 
     #map {
