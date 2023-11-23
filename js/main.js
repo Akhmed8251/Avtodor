@@ -74,6 +74,9 @@ document.addEventListener("DOMContentLoaded", function () {
       el: ".partners .swiper-pagination",
     },
     breakpoints: {
+      320: {
+        slidesPerView: 1.5
+      },
       426: {
         slidesPerView: 2
       },
